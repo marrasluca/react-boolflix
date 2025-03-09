@@ -21,7 +21,7 @@ export function Search(){
 
 
             {/* gestore di eventi che viene attivato ogni volta che l'utente cambia il valore */}
-            <input type="text" onChange={ e => console.log( e.target.value ) }/> 
+            <input type="text" onChange={ e => setQuery( e.target.value ) }/> 
 
 
             <button type="submit">Cerca</button>

@@ -35,7 +35,7 @@ useEffect( () => {
     console.log("Endpoint:", endpoint);
 }, [movies, tv])
 
- //https://api.themoviedb.org/3/search/movie?api_key=727502de502820598f3427bfd1e07eec&query=ritorno+al+futuro 
+ //https://api.themoviedb.org/3/search/movie?api_key=727502de502820598f3427bfd1e07eec&query=batman 
  
 
  
