@@ -1,0 +1,45 @@
+.language-flag{
+    width: 24px;
+}
+
+.poster{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.star{
+    color: #ccc;
+}
+
+.star.filled {
+    color: #FFD700; 
+}
+
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.card{
+    box-sizing: border-box;
+    width: 100%; 
+    background-color: white; 
+    border-radius: 10px; 
+    overflow: hidden; /* Evita che gli elementi escano dai bordi */
+    transition: transform 0.3s ease; /* Animazione al passaggio del mouse */
+
+}
+
+
+.results-section{
+ padding: 10px;
+}
+
+
+.results-flex{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
